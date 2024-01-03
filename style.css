@@ -103,7 +103,7 @@ fieldset {
     position: absolute;
     left: 0;
     bottom: -10px;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 .navbar ul li:hover::after{
     width: 100%;
@@ -178,7 +178,7 @@ span{
     position: absolute;
     left: 0;
     bottom: 0;
-    transition: 0.5s;
+    transition: 0.2s;
     z-index: -2;
 }
 button:hover span{
