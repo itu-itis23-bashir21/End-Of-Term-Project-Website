@@ -27,7 +27,6 @@ function displayImages() {
 }
 
 function resetGame() {
-    // Reset the game state
     selectedImages = [];
     gameStarted = false;
 
@@ -68,13 +67,10 @@ function arraysMatch(arr1, arr2) {
 function uncoverCard(index) {
     const card = document.querySelectorAll('.memory-card')[index];
 
-    // Uncover the selected image to show the original vector image
     card.src = shuffledImages[index];
     selectedImages.push(shuffledImages[index]);
 
-    // Check if the player's selection is correct
     if (arraysMatch(selectedImages, correctSequence)) {
-        // Correct selection
         score += 20;
         document.getElementById('score-display').textContent = `Score: ${score}`;
 
@@ -90,14 +86,13 @@ function uncoverCard(index) {
 }
 
 function isInitialPhase() {
-    // Check if the game is in the initial phase (first two seconds)
-    return new Date() - startTime < 2000; // Adjust the value based on your timing
+    return new Date() - startTime < 2000; 
   }
 
   function restartGame() {
-    score = 0; // Reset the score
-    document.getElementById('score-display').textContent = 'Score: 0'; // Update the score display
-    startGame(); // Restart the game
+    score = 0; 
+    document.getElementById('score-display').textContent = 'Score: 0'; 
+    startGame(); //
   }
 
 function selectCard(index) {
@@ -112,17 +107,13 @@ function resetCards() {
 }
 
 function resetGame() {
-    // Reset the game state
     selectedImages = [];
     gameStarted = false;
 
-    // Reset the cards
     resetCards();
 
-    // Reset the score display
     document.getElementById('score-display').textContent = 'Score: 0';
 
-    // Display the original order of the name without shuffling
     const cards = document.querySelectorAll('.memory-card');
     for (let i = 0; i < cards.length; i++) {
         cards[i].src = imagePaths[i];
