@@ -75,24 +75,26 @@ function uncoverCard(index) {
         document.getElementById('score-display').textContent = `Score: ${score}`;
 
         if (selectedImages.length === correctSequence.length) {
-            score+=20;
-            alert('You Win! You Guessed The Correct Order!'); 
-            resetGame();
+            document.getElementById('score-display').textContent = `Score: ${score}`;
+            setTimeout(() => {
+                alert(`You Win! You Guessed The Correct Order! Your score is ${score}`); 
+                resetGame();
+            }, 1);
         }
+        
     } else {
-        alert(`Game Over! You Chose the Wrong Order! Your score is ${score}`);
-        resetGame();
+        setTimeout(() => {
+            alert(`Game Over! You Chose the Wrong Order! Your score is ${score}`);
+            resetGame();
+        }, 1);
     }
 }
 
-function isInitialPhase() {
-    return new Date() - startTime < 2000; 
-  }
 
   function restartGame() {
     score = 0; 
     document.getElementById('score-display').textContent = 'Score: 0'; 
-    startGame(); //
+    startGame(); 
   }
 
 function selectCard(index) {
