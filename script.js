@@ -5,8 +5,10 @@ let shuffledImages = [];
 let selectedImages = [];
 let score = 0;
 let gameStarted = false;
+let gameStartedOnce = false;
 
 function startGame() {
+    gameStartedOnce = true;
     selectedImages = [];
     score = 0;
     gameStarted = true;
@@ -92,6 +94,10 @@ function uncoverCard(index) {
 
 
   function restartGame() {
+      if (!gameStartedOnce) {
+        alert("Please start the game first!");
+        return;
+  }
     score = 0; 
     document.getElementById('score-display').textContent = 'Score: 0'; 
     startGame(); 
