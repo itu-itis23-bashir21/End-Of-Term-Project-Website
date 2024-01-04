@@ -98,6 +98,8 @@ function uncoverCard(index) {
   }
 
 function selectCard(index) {
+    if (!gameStarted) 
+            return;
     uncoverCard(index);
 }
 
