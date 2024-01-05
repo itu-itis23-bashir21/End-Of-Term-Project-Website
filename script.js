@@ -79,14 +79,14 @@ function uncoverCard(index) {
         if (selectedImages.length === correctSequence.length) {
             document.getElementById('score-display').textContent = `Score: ${score}`;
             setTimeout(() => {
-                alert(`You Win! You Guessed The Correct Order! Your score is ${score}`); 
+                alert(`You Win! You Guessed The Correct Order! Your score is ${score}!`); 
                 resetGame();
             }, 1);
         }
         
     } else {
         setTimeout(() => {
-            alert(`Game Over! You Chose the Wrong Order! Your score is ${score}`);
+            alert(`Game Over! You Chose the Wrong Order! Your score is ${score}!`);
             resetGame();
         }, 1);
     }
