@@ -63,13 +63,15 @@ header {
     margin: auto;
     display: inline-block; 
     margin-left: 250px;
+    background-color: #00000050;
   }
 
 fieldset {
     border: 1px solid #009688; 
     padding: 10px; 
     width: auto; 
-   margin: 0; 
+    margin: 0; 
+    background-color: #00000050;
   }
   
   legend {
@@ -136,7 +138,7 @@ section {
 
 
 #memory-game-container {
-    background-color: #38383895;
+    background-color: #62626245;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
