@@ -231,7 +231,7 @@ button:hover span{
 
     .banner{
     width: 100%;
-    height: 200vh;
+    height: 300vh;
     background-image: linear-gradient(rgba(29, 29, 29, 0.375),rgba(55, 55, 55, 0.439)),url(background.jpeg);
     background-size: cover;
     background-position: center;
@@ -276,7 +276,7 @@ button:hover span{
 
     .banner{
     width: 100%;
-    height: 150vh;
+    height: 300vh;
     background-image: linear-gradient(rgba(29, 29, 29, 0.375),rgba(55, 55, 55, 0.439)),url(background.jpeg);
     background-size: cover;
     background-position: center;
@@ -322,7 +322,7 @@ button:hover span{
 
     .banner{
     width: 100%;
-    height: 110vh;
+    height: 300vh;
     background-image: linear-gradient(rgba(29, 29, 29, 0.375),rgba(55, 55, 55, 0.439)),url(background.jpeg);
     background-size: cover;
     background-position: center;
