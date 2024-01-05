@@ -67,7 +67,7 @@ fieldset {
   }
 
 .navbar{
-    font-size: 20px;
+    font-size: 1.2em;
     width: 85%;
     margin: auto;
     padding: 20px;
@@ -80,7 +80,7 @@ fieldset {
 .navbar ul li{
     list-style: none;
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 1.2em;
     position: relative;
 }
 
@@ -104,7 +104,7 @@ fieldset {
     width: 100%;
 }
 section {
-    max-width: 70%;
+    max-width: 60%;
     margin: 0 auto;
     padding: 5%;
     text-align: center;
@@ -131,8 +131,8 @@ section {
 }
 
 .memory-card {
-    width: 12.5%; 
-    height: 12.5%; 
+    width: 6em; 
+    height: 6em; 
     cursor: pointer;
 }
 
