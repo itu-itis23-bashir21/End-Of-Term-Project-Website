@@ -45,7 +45,7 @@ header {
     display: inline-block; 
   }
 
-  .msg {
+  .Game_Desc {
     font-family: monospace;
     border: 2px solid #adadad; 
     padding: 5px; 
@@ -137,7 +137,7 @@ section {
 }
 
 
-#memory-game-container {
+#main-game {
     background-color: #62626245;
     display: flex;
     flex-wrap: wrap;
