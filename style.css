@@ -53,6 +53,8 @@ header {
     display: inline-block; 
     background-color: #3333339e;
     color: #fff;
+    text-align: center;
+    font-size: 16px;
   }
 
   .game {
@@ -154,10 +156,6 @@ section {
     margin-top: 10px;
 }
 
-.msg{
-    text-align: center;
-    font-size: 16px;
-}
 button {
     text-transform: uppercase;
     width: 200px;
