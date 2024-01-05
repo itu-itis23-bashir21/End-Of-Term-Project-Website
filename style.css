@@ -3,8 +3,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #333;
-}
 
+}
 h{
     font-size: 0; 
 }
@@ -19,7 +19,7 @@ h1 {
     margin-bottom: 10px; 
   }
 
-  h2{
+h2{
     transform: translate(35%,0%);
     text-transform: uppercase;
     text-align: center;
@@ -29,12 +29,6 @@ h1 {
     font-size: 2.5em; 
     margin-bottom: 10px; 
   }
-header {
-    text-align: center;
-    background-color: #000000;
-    padding: 20px;
-    margin: 0;
-}
 
 .border {
     border: 2px solid #adadad; 
@@ -43,7 +37,7 @@ header {
     display: inline-block; 
   }
 
-  .Game_Desc {
+.Game_Desc {
     font-family: monospace;
     border: 2px solid #adadad; 
     padding: 20px; 
@@ -55,12 +49,12 @@ header {
     font-size: 16px;
   }
 
-  .game {
+.game {
     border: 5px solid #04fbff; 
-    padding: 100px; 
-    margin: 80px;
+    padding: 5%; 
+    margin: 8%;
     display: inline-block; 
-    margin-left: 250px;
+    margin-left: 25%;
     background-color: #00000050;
   }
 
@@ -71,7 +65,7 @@ fieldset {
     margin: 0; 
     background-color: #00000050;
   }
-  
+
 .navbar{
     font-size: 20px;
     width: 85%;
@@ -110,9 +104,9 @@ fieldset {
     width: 100%;
 }
 section {
-    max-width: 800px;
-    margin: 60px auto;
-    padding: 20px;
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 5%;
     text-align: center;
 }
 
@@ -120,16 +114,15 @@ section {
     font-size: x-large;
     color: #fff;
 }
-
 #personal-info img {
     border-radius: 10%;
     margin-top: 10px;
-    width: 200px; 
+    width: 25%; 
     height: auto; 
 }
 
 
-#main-game {
+#memory-game-container {
     background-color: #62626245;
     display: flex;
     flex-wrap: wrap;
@@ -138,8 +131,8 @@ section {
 }
 
 .memory-card {
-    width: 100px; 
-    height: 100px; 
+    width: 12.5%; 
+    height: 12.5%; 
     cursor: pointer;
 }
 
@@ -152,7 +145,7 @@ section {
 
 button {
     text-transform: uppercase;
-    width: 200px;
+    width: 30%;
     padding: 15px 0;
     text-align: center;
     margin: 20px 10px;
@@ -185,146 +178,11 @@ button:hover span{
     border: none;
 }
 
+
 .banner{
     width: 100%;
-    height: 130vh;
+    height: 100%;
     background-image: linear-gradient(rgba(29, 29, 29, 0.375),rgba(55, 55, 55, 0.439)),url(background.jpeg);
     background-size: cover;
     background-position: center;
 }
-
-@media screen and (max-width: 600px) {
-    h1 {
-      font-size: 0.5em;
-    }
-  
-    h2 {
-      font-size: 0.5em;
-    }
-  
-    header {
-      padding: 5px;
-    }
-  
-    .border {
-      margin: auto;
-      position: relative;
-    }
-  
-    .msg {
-      font-size: 8px;
-    }
-
-    footer {
-        padding: 2px;
-        position: static;
-        bottom: 0;
-        width: 70%;
-    }
-
-    section {
-        max-width: 200px;
-        margin: 20px auto;
-        padding: 10px;
-        text-align: center;
-    }
-
-    .banner{
-    width: 200%;
-    height: 200vh;
-    background-image: linear-gradient(rgba(29, 29, 29, 0.375),rgba(55, 55, 55, 0.439)),url(background.jpeg);
-    background-size: cover;
-    background-position: center;
-}
-  }
-  
-  @media screen and (min-width: 601px) and (max-width: 1024px) {
-    h1 {
-        font-size: 1em;
-      }
-    
-      h2 {
-        font-size: 1em;
-      }
-    
-      header {
-        padding: 7px;
-      }
-    
-      .border {
-        margin: auto;
-        position: relative;
-      }
-    
-      .msg {
-        font-size: 10px;
-      }
-
-      footer {
-        padding: 4px;
-        position: static;
-        bottom: 0;
-        width: 90%;
-    }
-
-    section {
-        max-width: 400px;
-        margin: 30px auto;
-        padding: 10px;
-        text-align: center;
-    }
-
-    .banner{
-    width: 150%;
-    height: 250vh;
-    background-image: linear-gradient(rgba(29, 29, 29, 0.375),rgba(55, 55, 55, 0.439)),url(background.jpeg);
-    background-size: cover;
-    background-position: center;
-}
-  }
-  
-  /* Media query for larger screens */
-  @media screen and (min-width: 1025px) {
-    h1 {
-        font-size: 2em;
-      }
-    
-      h2 {
-        font-size: 2em;
-      }
-    
-      header {
-        padding: 15px;
-      }
-    
-      .border {
-        margin: auto;
-        position: relative;
-      }
-    
-      .msg {
-        font-size: 15px;
-      }
-
-      footer {
-        padding: 6px;
-        position: static;
-        bottom: 0;
-        width: 99.3%;
-    }
-
-    section {
-        max-width: 800px;
-        margin: 60px auto;
-        padding: 20px;
-        text-align: center;
-    }
-
-    .banner{
-    width: 100%;
-    height: 300vh;
-    background-image: linear-gradient(rgba(29, 29, 29, 0.375),rgba(55, 55, 55, 0.439)),url(background.jpeg);
-    background-size: cover;
-    background-position: center;
-}
-  }
