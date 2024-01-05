@@ -80,7 +80,7 @@ fieldset {
     font-size: 20px;
     width: 85%;
     margin: auto;
-    padding-top: 20px;
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -191,7 +191,7 @@ button:hover span{
 
 .banner{
     width: 100%;
-    height: 110vh;
+    height: 150vh;
     background-image: linear-gradient(rgba(29, 29, 29, 0.375),rgba(55, 55, 55, 0.439)),url(background.jpeg);
     background-size: cover;
     background-position: center;
