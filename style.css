@@ -192,12 +192,4 @@ button:hover span{
     background-size: cover;
     background-position: center;
 }
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 5px;
-    position: static;
-    bottom: 0;
-    width: 99.3%;
-}
+
