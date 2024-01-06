@@ -105,8 +105,11 @@ function uncoverCard(index) {
 
 function selectCard(index) {
     if (!gameStarted) 
-            return;
-    uncoverCard(index);
+        return;
+    const selectedCard = document.querySelector(`.memory-card:nth-child(${index + 1})`);
+    if (gameStarted && selectedCard.src.includes('cover.jpg')){
+        uncoverCard(index);
+    }
 }
 
 function resetCards() {
