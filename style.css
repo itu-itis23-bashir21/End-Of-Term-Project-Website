@@ -37,7 +37,7 @@ h2{
     display: inline-block; 
   }
 
-.Game-Desc {
+.Game_Desc {
     font-family: monospace;
     border: 2px solid #adadad; 
     padding: 20px; 
