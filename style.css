@@ -37,7 +37,7 @@ h2{
     display: inline-block; 
   }
 
-.Game_Desc {
+.msg {
     font-family: monospace;
     border: 2px solid #adadad; 
     padding: 20px; 
@@ -133,7 +133,6 @@ section {
 .memory-card {
     width: 6em; 
     height: 6em; 
-    cursor: pointer;
 }
 
 #score-display {
