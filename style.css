@@ -37,7 +37,7 @@ h2{
     display: inline-block; 
   }
 
-.msg {
+.Game-Desc {
     font-family: monospace;
     border: 2px solid #adadad; 
     padding: 20px; 
@@ -122,8 +122,8 @@ section {
 }
 
 
-#memory-game-container {
-    background-color: #4e4e4e5b;
+#main-game {
+    background-color: #4e4e4e77;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
