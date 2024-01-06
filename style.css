@@ -133,6 +133,7 @@ section {
 .memory-card {
     width: 6em; 
     height: 6em; 
+    cursor: pointer;
 }
 
 #score-display {
